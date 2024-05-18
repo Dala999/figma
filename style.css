@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    font-family:’Poppins’,sans-serif;
     }
-    .cabecalho {
-    
+
+.cabecalho {
     background-color: #424E61;
     color: white;
     display: flex;
@@ -11,31 +17,67 @@
     align-items: center;
     padding: 24px 0;
     }
-    .cabecalho-imagem{
+
+
+.cabecalho-imagem{
     width: 20%;
-    }
-    .cabecalho-lista-item{
+}
+.cabecalho-lista-item{
     display: inline-block;
-    margin: 0 16px;
+    margin: 0  16px;
     font-size: 24px;
-    }
-    .brasão-escola-2024{
+}
+
+.brasão-escola-2024{
     width: 25%;
-    }
-    .escola{
+}
+
+.escola{
     background-image: linear-gradient(#424E61,#4EBFE9);
     color: white;
     display: flex;
     justify-content:center;
     align-items:center;
     padding: 40px;
-    }
-    .lista-de-nomes-do-colegio-gildo{
+}
+
+.lista-de-nomes-do-colegio-gildo{
     padding: 30px;
-    }
-    .escola-div-conteudo {
+}
+.escola-div-conteudo {
     width: 50%;
-    }
-    .escola-titulo{
+}
+
+.escola-titulo{
     padding: 24px 0;
- }
+}
+
+.professora{
+    text-align: center;
+    padding: 50 px 0;
+}
+.professora-imagem{
+    align-items: center;
+    width: 175px;
+}
+
+.professora-icone{
+    width: 25px;
+}
+.estudante-icone{
+    width: 25px;
+}
+.estudante-imagem{
+    width: 175px;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50 px 0;
+
+}
+
+.estudantes-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
